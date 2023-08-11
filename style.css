@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* this is navbar section  */
+.menu-container {
+  background-color: rgb(61, 60, 60);
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menus {
+  display: flex;
+}
+.logo-photo {
+  width: 130px;
+  padding: 20px;
+}
+
+.item {
+  margin-right: 40px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(233, 247, 247);
+}
+.item:hover {
+  color: red;
+}
+
+/*banner section start from here  */
+
+.banner-img {
+  width: 300px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  /* border: 2px solid gray; */
+  color: rgb(230, 232, 233);
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, #000000, #000000c9);
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: rgb(241, 243, 244);
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(179, 84, 16);
+}
+
+/* this is about us section  */
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  /* height: 50vh; */
+  align-items: center;
+}
+.about-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.about-head {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.btn-2 {
+  padding: 15px 20px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+/* service section start from here */
+
+.about-head-2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.box {
+  width: 230px;
+  height: 280px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: #000000;
+  text-align: center;
+  padding: 15px;
+  color: aliceblue;
+}
+
+.icon {
+  width: 70px;
+}
+
+.box-title {
+  padding: 10px;
+}
+.box-description {
+  padding: 10px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box-background {
+  padding: 30px;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, #0000009c, #000000c9);
+}
+
+/* footer */
+.background {
+  background-color: #000000;
+}
+.copy {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-contaner {
+  color: white;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+.lite-logo {
+  width: 190px;
+  padding: 20px;
+}
+
+.head {
+  margin-bottom: 30px;
+}
+
+.hr {
+  width: 50%;
+  margin-left: 25%;
+}
